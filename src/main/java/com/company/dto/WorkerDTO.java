@@ -5,7 +5,10 @@ import lombok.Setter;
 
 @Setter
 @Getter
-public class HotelDTO {
+public class WorkerDTO {
     private Integer id;
     private String name;
+    private String phoneNumber;
+    private Integer address;
+    private Integer department;
 }
